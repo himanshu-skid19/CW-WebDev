@@ -14,17 +14,27 @@ body {
 
 .top3box {
     display: flex;
-    border-radius: 1px 1px 30px 30px;
+    justify-content: center;
+    border-radius: 1px 1px 50px 50px;
     background: #656cec;
     margin-top: 3px;
-    padding: 60px; 
-    justify-content: center;
+    padding: 10px; 
     gap: 100px;
-    flex-wrap: wrap;
   }
 
 
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    background: #656cec;
+    margin-top: 3px;
+    padding: 30px;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    font-family: sans-serif;
 
+}
   
 .circle {
     border-radius: 50%;
@@ -32,7 +42,7 @@ body {
     width: 200px;
     height: 200px;
     align-self: center;
-    order: 2;
+
     box-shadow: 0 0 0 7px white;
 }
 
@@ -42,9 +52,10 @@ body {
     background: #babeff;
     width: 150px;
     height: 150px;
-    order: 1;
     align-self: flex-end;
     box-shadow: 0 0 0 7px white;
+    text-align: center;
+    
 }
 
 .smallcircle2{
@@ -52,9 +63,9 @@ body {
     background: #babeff;
     width: 150px;
     height: 150px;
-    order: 3;
     align-self: flex-end;
     box-shadow: 0 0 0 7px white;
+    text-align: center;
 }
 
 .vsmallcircle{
@@ -63,14 +74,29 @@ body {
     width: 50px;
     height: 50px;
     box-shadow: 0 0 0 2px white;
+    font-family: sans-serif;
+}
+
+.numericcircle{
+    border-radius: 50%;
+    background: #babeff;
+    width:25px;
+    height: 25px;
+    text-align: center;
+    font-family: sans-serif;
+
+
 }
 
 .tag {
     border-radius: 25px;
     background: #babeff;
-    padding: 20px; 
-    width: 200px;
-    height: 25px;  
+    text-align: center;
+    
+    padding: 15px; 
+    width: 100px;
+    height: 10px;  
+    font-family: sans-serif;
   }
 
 
@@ -83,7 +109,7 @@ body {
 }
 
 #ranks td, #rankss th {
-    border: 1px solid white;
+
     padding: 21px;
     width: 5000px;
 }
@@ -99,3 +125,17 @@ body {
 }
 
 
+.white{
+    color: white;
+}
+
+.tag-prime {
+    border-radius: 25px;
+    background: #babeff;
+    text-align: center;
+    
+    padding: 15px; 
+    width: 150px;
+    height: 15px;  
+    font-family: sans-serif;
+}
