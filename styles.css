@@ -2,8 +2,8 @@ body {
     background-color: white;
 }
 
-.headbar
-{
+.headbar{
+
     padding: 30px;
     text-align: center;
     background: #656cec;
@@ -13,9 +13,42 @@ body {
 }
 
 .top3box {
+    display: flex;
     border-radius: 1px 1px 30px 30px;
     background: #656cec;
     margin-top: 3px;
     padding: 60px; 
-
+    justify-content: center;
+    gap: 100px;
   }
+
+.circle {
+    border-radius: 50%;
+    background: #babeff;
+    width: 200px;
+    height: 200px;
+    align-self: center;
+    order: 2;
+    box-shadow: 0 0 0 7px white;
+}
+
+
+.smallcircle1{
+    border-radius: 50%;
+    background: #babeff;
+    width: 150px;
+    height: 150px;
+    order: 1;
+    align-self: flex-end;
+    box-shadow: 0 0 0 7px white;
+}
+
+.smallcircle2{
+    border-radius: 50%;
+    background: #babeff;
+    width: 150px;
+    height: 150px;
+    order: 3;
+    align-self: flex-end;
+    box-shadow: 0 0 0 7px white;
+}
