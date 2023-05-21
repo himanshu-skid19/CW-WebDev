@@ -20,8 +20,12 @@ body {
     padding: 60px; 
     justify-content: center;
     gap: 100px;
+    flex-wrap: wrap;
   }
 
+
+
+  
 .circle {
     border-radius: 50%;
     background: #babeff;
@@ -52,3 +56,40 @@ body {
     align-self: flex-end;
     box-shadow: 0 0 0 7px white;
 }
+
+.vsmallcircle{
+    border-radius: 50%;
+    background: #babeff;
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 0 0 2px white;
+}
+
+.tag {
+    border-radius: 25px;
+    background: #babeff;
+    padding: 20px; 
+    width: 200px;
+    height: 25px;  
+  }
+
+
+#ranks {
+    font-family: sans-serif;
+    border-collapse: collapse;
+    border-spacing: 10px;
+    width: 100%;
+    row-gap: 15px;
+}
+
+#ranks td, #rankss th {
+
+    padding: 11px;
+}
+
+#ranks tr{
+    background-color: #d2d4f2;
+    text-align: left;
+}
+
+
