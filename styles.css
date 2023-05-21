@@ -1,0 +1,13 @@
+body {
+    background-color: white;
+}
+
+.headbar
+{
+    padding: 30px;
+    text-align: center;
+    background: #656cec;
+    color: white;
+    font-size: 60px;
+    font-family: sans-serif;
+}
