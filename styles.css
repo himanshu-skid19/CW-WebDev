@@ -11,3 +11,11 @@ body {
     font-size: 60px;
     font-family: sans-serif;
 }
+
+.top3box {
+    border-radius: 1px 1px 30px 30px;
+    background: #656cec;
+    margin-top: 3px;
+    padding: 60px; 
+
+  }
