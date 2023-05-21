@@ -83,13 +83,19 @@ body {
 }
 
 #ranks td, #rankss th {
-
-    padding: 11px;
+    border: 1px solid white;
+    padding: 21px;
+    width: 5000px;
 }
 
 #ranks tr{
     background-color: #d2d4f2;
     text-align: left;
+
+}
+
+.col {
+    column-width: 10px;
 }
 
 
