@@ -19,6 +19,7 @@ def index():
     for i in json_data:
         l[i['points']] = j
         j+=1
+    n = j-1
     top3 = []
     rest = []
     sorted_points = sorted(l.keys(), reverse=True)
@@ -30,5 +31,5 @@ def index():
         else:
             rest.append(l[i])
             k+=1
-            
-    return "hello"
+  
+    return render_template("leaderboard.html", json_data = json_data, top3 = top3, rest = rest, n=n, l=l)
